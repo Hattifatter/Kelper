@@ -1,0 +1,10 @@
+﻿dataset,processing_method,visualization_method,pair,processing_time_sec,visualization_time_sec,total_time_sec,processing_memory_peak_mb
+large,dask,plotly,dask + plotly,0.803931,0.030344,0.834275,386.367
+large,pandas,plotly,pandas + plotly,0.23707,0.029162,0.266232,334.57
+large,spark,plotly,spark + plotly,2.087229,0.038566,2.125795,969.531
+medium,dask,dash,dask + dash,0.54414,0.018236,0.562376,254.848
+medium,pandas,dash,pandas + dash,0.075827,0.017936,0.093763,195.145
+medium,spark,dash,spark + dash,1.581759,0.024978,1.606737,875.707
+small,dask,dash,dask + dash,0.717018,0.009949,0.726967,166.066
+small,pandas,dash,pandas + dash,0.047403,0.010389,0.057792,106.781
+small,spark,dash,spark + dash,6.521062,0.01648,6.537542,726.914

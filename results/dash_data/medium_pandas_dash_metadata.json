@@ -1,0 +1,35 @@
+{
+  "dataset": "medium",
+  "processing_method": "pandas",
+  "visualization_method": "dash",
+  "visualization_type": "interactive_web_dashboard",
+  "source_processed_file": "C:\\Kelper\\results\\processed\\medium_pandas_processed.parquet",
+  "output_file": "C:\\Kelper\\results\\dash_data\\medium_pandas_dash_data.parquet",
+  "rows_before_downsample": 20733,
+  "rows_saved_for_dashboard": 20733,
+  "objects": [
+    "11904151"
+  ],
+  "quarters": [
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17
+  ],
+  "anomaly_rows": 644,
+  "min_time": 120.5,
+  "max_time": 1591.0,
+  "launch_command": "python src\\app_dash.py",
+  "url": "http://127.0.0.1:8050"
+}

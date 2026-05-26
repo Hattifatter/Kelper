@@ -1,0 +1,4 @@
+﻿dataset,fits_files,rows,objects,quarters,anomaly_rows,output_file,size_mb,status
+small,6,12326,1,3,938,C:\Kelper\data\samples\kepler_small.parquet,0.207,success
+medium,30,103946,1,15,0,C:\Kelper\data\samples\kepler_medium.parquet,1.768,success
+large,100,364064,3,18,0,C:\Kelper\data\samples\kepler_large.parquet,6.39,success

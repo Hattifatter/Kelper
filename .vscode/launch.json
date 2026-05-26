@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Check environment",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\src\\check_environment.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Convert Kepler FITS to Parquet",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\src\\convert_kepler_fits_to_parquet.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}

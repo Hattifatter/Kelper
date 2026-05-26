@@ -1,0 +1,40 @@
+{
+  "dataset": "large",
+  "processing_method": "spark",
+  "visualization_method": "dash",
+  "visualization_type": "interactive_web_dashboard",
+  "source_processed_file": "C:\\Kelper\\results\\processed\\large_spark_processed.parquet",
+  "output_file": "C:\\Kelper\\results\\dash_data\\large_spark_dash_data.parquet",
+  "rows_before_downsample": 70858,
+  "rows_saved_for_dashboard": 49998,
+  "objects": [
+    "10593626",
+    "11904151",
+    "6541920"
+  ],
+  "quarters": [
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "anomaly_rows": 876,
+  "min_time": 120.5,
+  "max_time": 1591.0,
+  "launch_command": "python src\\app_dash.py",
+  "url": "http://127.0.0.1:8050"
+}
